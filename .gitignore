@@ -1,4 +1,6 @@
-build
-src/bin/_empty.cpp
-src/bin/_empty.h
 .vscode/settings.json
+.idea/**
+build/**
+**.log
+contrib/Artifact/**
+contrib/Distribution/Plugin - **/

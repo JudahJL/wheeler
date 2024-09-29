@@ -1,5 +1,6 @@
+
 {
-  "name": "wheeler",
+  "name": "dmenu",
   "version": "1",
   "dependencies": [
     "fast-cpp-csv-parser",
@@ -9,13 +10,15 @@
     "xbyak",
     "rapidcsv",
     "nlohmann-json",
-    "freetype",
+    "directxtk",
+    "nanosvg",
     {
       "name":  "imgui",
       "features":  [
-                       "dx11-binding",
-                       "win32-binding"
-                   ]
+        "dx11-binding",
+        "win32-binding",
+        "freetype"
+      ]
     }
   ]
 }
