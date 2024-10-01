@@ -1,9 +1,11 @@
 // ReSharper disable CppMultiCharacterLiteral
 #pragma once
 
-constexpr std::uint32_t WHEELER_SERIALIZATION_ID{ 'WHLR' };
-constexpr std::uint32_t WHEELER_JSON_STRING_TYPE{ 'WJSN' };
-constexpr std::uint32_t SERIALIZER_VERSION{ 2 };
+constexpr uint32_t WHEELER_SERIALIZATION_ID{ 'WHLR' };
+constexpr uint32_t WHEELER_JSON_STRING_TYPE{ 'WJSN' };
+constexpr uint32_t WHEELER_JSON_MSGPACK_TYPE{ 'WJMP' };
+constexpr uint32_t WHEELER_JSON_STRING_SERIALIZER_VERSION{ 2 }; // compatability with dmenu v1.2
+constexpr uint32_t WHEELER_JSON_MSGPACK_SERIALIZER_VERSION{ 1 };
 
 /// <summary>
 /// Handles serialization interface callbacks. This class does not turn current datastructure into serialized data,

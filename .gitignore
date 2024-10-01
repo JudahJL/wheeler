@@ -1,6 +1,6 @@
 .vscode/settings.json
+**.log
 .idea/**
 build/**
-**.log
 contrib/Artifact/**
 contrib/Distribution/Plugin - **/
